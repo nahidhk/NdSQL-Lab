@@ -1,9 +1,11 @@
 
 .card{
-    height: 700px;
-    width: 400px;
-    border: 1px solid #000;
+  width:  1013px;  /* Swapped to make it horizontal */
+  height:  638px;  /* Swapped to make it horizontal */
+  border-radius: 36px; /* Added to match the rounded corners of a real smart card at this resolution */
+  box-sizing: border-box; /* Ensures the border does not add to the width/height */
 }
+
 .flex{
     display: flex;
 }
