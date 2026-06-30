@@ -1,9 +1,16 @@
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
 .card{
-  width:  1013px;  /* Swapped to make it horizontal */
-  height:  638px;  /* Swapped to make it horizontal */
-  border-radius: 36px; /* Added to match the rounded corners of a real smart card at this resolution */
+  width:  420px;  /* Swapped to make it horizontal */
+  height:  670px;  /* Swapped to make it horizontal */
+ 
   box-sizing: border-box; /* Ensures the border does not add to the width/height */
+  border: 1px solid #000;
 }
 
 .flex{
@@ -61,9 +68,23 @@
     color: #fff;
     text-align: center;
     font-family: sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;      
-    letter-spacing: 5px;    
-    word-spacing: 10px;     
+    font-size: 2.6rem;
+    font-weight: 1000;      
+    letter-spacing: 10px;    
+    word-spacing: 20px;     
     text-transform: uppercase;
+}
+.padding{
+    padding: 8px;
+}
+.hlfBlod{
+    font-weight:500;
+}
+.blkBG{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    margin: 10px auto;
+    font-size: 1.6rem;
 }
