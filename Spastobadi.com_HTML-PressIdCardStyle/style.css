@@ -1,35 +1,41 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 10px;
 }
-.card{
-  width:  420px;  /* Swapped to make it horizontal */
-  height:  670px;  /* Swapped to make it horizontal */
- 
-  box-sizing: border-box; /* Ensures the border does not add to the width/height */
-  border: 1px solid #000;
+
+.card {
+    width: 447px;
+    height: 661px;
+    box-sizing: border-box;
+    /* Ensures the border does not add to the width/height */
+    border: 1px solid #000;
 }
 
-.flex{
+.flex {
     display: flex;
 }
-.center{
+
+.center {
     justify-content: center;
 }
-.medel{
+
+.medel {
     align-items: center;
 }
-.icon{
+
+.icon {
     height: 100%;
     width: 100%;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 20px;
 }
-.bgborder{
+
+.bgborder {
     background-image: url('bg.svg');
     height: 370px;
     width: 100%;
@@ -37,31 +43,37 @@ body{
     background-size: cover;
     background-position: center 140px;
 }
-.profile{
+
+.profile {
     height: 220px;
     width: 200px;
     border-radius: 15px;
     border: 3px solid #71bf44;
     object-fit: cover;
 }
-*{
+
+* {
     margin: 0;
 }
-.textCenter{
+
+.textCenter {
     text-align: center;
 }
- .auto{
+
+.auto {
     height: auto;
     width: 100%;
     background-color: #ed1c24;
-    padding: 10px 0  10px 0;
- }
- .qr{
+    padding: 10px 0 10px 0;
+}
+
+.qr {
     height: 100px;
     width: 100px;
     border: 1px solid #71bf44;
- }
- .press{
+}
+
+.press {
     height: auto;
     width: 100%;
     background-color: #71bf44;
@@ -69,22 +81,61 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-size: 2.6rem;
-    font-weight: 1000;      
-    letter-spacing: 10px;    
-    word-spacing: 20px;     
+    font-weight: 1000;
+    letter-spacing: 10px;
+    word-spacing: 20px;
     text-transform: uppercase;
 }
-.padding{
+
+.padding {
     padding: 8px;
 }
-.hlfBlod{
-    font-weight:500;
+
+.hlfBlod {
+    font-weight: 500;
 }
-.blkBG{
+
+.blkBG {
     background-color: #000;
     color: #fff;
     padding: 10px 30px 10px 30px;
     border-radius: 15px;
     margin: 10px auto;
     font-size: 1.6rem;
+}
+
+.rBox {
+    background-color: #ed1c24;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.admistor {
+    font-size: 1.5rem;
+    border-top: 2px solid #000;
+    width: 140px;
+    text-align: center;
+}
+
+.edtor {
+    height: 35px;
+    padding: 10px;
+}
+
+.cf {
+    color: #fff;
+}
+
+.c0 {
+    color: #000;
+}
+
+.f1 {
+    font-family: sans-serif;
 }
